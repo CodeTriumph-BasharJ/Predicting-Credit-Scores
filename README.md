@@ -7,3 +7,5 @@ This project aims to predict the credit score category (Good, Poor, Standard) fo
 3. The third version uses a Decision Tree Classifier, where 80% of the data is used for training in each iteration. The fitness score is determined by the error margin between predicted and actual credit scores. The top 100% of examples with the highest scores are selected to optimize the learning process in each iteration. This version achieved a maximum accuracy of around 99%.
 
 For all algorithm versions, testing was conducted on 20% of the original dataset (20,000 individuals). The efficiency of the algorithms was assessed by averaging the scores for each credit score category and then using the best weights or Decision Tree model to predict and compare the testing data's credit scores. The highest efficiency was achieved when the similarity percentage was set to 70% for the first two models and 60% for the third.
+
+More information about the data: https://www.kaggle.com/datasets/parisrohan/credit-score-classification
